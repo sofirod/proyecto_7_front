@@ -40,7 +40,7 @@ export default function Header() {
              <img
       src="/cubo.rubik.png" // Usa la ruta pública
       alt="Curbershop Logo"
-      className="w-18 h-17 object-contain border border-black"
+      className="w- h-30 object-contain border border-black"
     />
              
             </Link>
