@@ -39,8 +39,8 @@ const Router = () => {
                 />
                 <Route path="/cubos" element={<CuboList />} />
                 <Route path="/cubos/:slug" element={<SingleCubo />} />
-                <Route path='/pago-exitoso' element={<SuccessPage />} />
-                <Route path='/pago-cancelado' element={<CancelPage />} />
+                <Route path="/pago-exitoso" element={<SuccessPage />} />
+                <Route path="/pago-cancelado" element={<CancelPage />} />
               </Route>
             </Routes>
           </BrowserRouter>
