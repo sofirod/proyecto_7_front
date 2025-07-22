@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import UserState from "./contexts/user/UserState";
-import CuboState from "./contexts/Cubo/CuboState";
+import CuboState from "./contexts/cubo/CuboState";
 import Layout from "./components/Layout";
 import Home from "./components/Home/index";
 import CuboList from "./components/Cubo/List";

@@ -29,6 +29,7 @@ const UserState = (props) => {
       });
       return true;
     } catch (error) {
+      console.log("este es el error",error);
       return false;
     }
   };
