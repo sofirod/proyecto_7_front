@@ -47,7 +47,7 @@ const Router = () => {
         </CuboState>
       </UserState>
     </>
-  );
-};
+  )
+}
 
-export default Router;
+export default Router
