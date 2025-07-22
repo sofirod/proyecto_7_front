@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react"
-import CuboContext from '../../../contexts/Cubo/CuboContext'
+import CuboContext from '../../../contexts/cubo/CuboContext'
 import { Link } from "react-router-dom";
 
 const CuboList = () => {

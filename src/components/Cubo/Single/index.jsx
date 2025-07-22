@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { formatCLP } from "../../../utils/formatCLP";
 import UserContext from "../../../contexts/user/UserContext";
-import CuboContext from "../../../contexts/Cubo/CuboContext";
+import CuboContext from "../../../contexts/cubo/CuboContext";
 import { useContext, useEffect, useState } from "react";
 
 const SingleCubo = () => {
