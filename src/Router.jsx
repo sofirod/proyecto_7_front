@@ -24,23 +24,23 @@ const Router = () => {
               <Route path="/" element={<Layout />}>
                 <Route index element={<Home />} />
                <Route path="/curso" element={<Curso />} />
-                <Route path="registro" element={<Register />} />
+                <Route path="/registro" element={<Register />} />
                 <Route
-                  path="iniciar-sesion"
+                  path="/iniciar-sesion"
                   element={<Auth component={Login} />}
                 />
                 <Route
-                  path="perfil"
+                  path="/perfil"
                   element={<PrivateRoute component={Profile} />}
                 />
                 <Route
-                  path="carrito"
+                  path="/carrito"
                   element={<PrivateRoute component={Checkout} />}
                 />
-                <Route path="cubos" element={<CuboList />} />
-                <Route path="cubos/:slug" element={<SingleCubo />} />
-                <Route path='pago-exitoso' element={<SuccessPage />} />
-                <Route path='pago-cancelado' element={<CancelPage />} />
+                <Route path="/cubos" element={<CuboList />} />
+                <Route path="/cubos/:slug" element={<SingleCubo />} />
+                <Route path='/pago-exitoso' element={<SuccessPage />} />
+                <Route path='/pago-cancelado' element={<CancelPage />} />
               </Route>
             </Routes>
           </BrowserRouter>
